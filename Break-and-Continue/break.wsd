@@ -1,0 +1,14 @@
+@startuml break
+start
+:declare i = 0;
+while (i < 10?)
+    if (i < 5?) then
+        :print masih belum break;
+    else
+        :break;
+        stop
+    endif
+    :i++;
+endwhile
+stop
+@enduml

@@ -1,0 +1,22 @@
+@startuml continue
+start
+:declare i = 0;
+while ()
+repeat
+    if (i < 10?) then
+    else
+    stop
+    endif
+:ini kena continue;
+repeat while(i % 2 === 0?)
+:print ini tidak kena continue;
+:i++;
+endwhile
+stop
+' while (i < 10?)
+'     if (i % 2 === 0?) then
+'     :continue;
+'     endif
+' endwhile
+' stop
+@enduml
