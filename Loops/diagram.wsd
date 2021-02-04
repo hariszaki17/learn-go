@@ -1,0 +1,11 @@
+@startuml diagram
+start
+:init variable counter = 0;
+repeat
+    ' :check value of counter;
+    if (counter < 10) then
+        :print loop executed;
+        :counter++;
+    else
+    stop
+@enduml

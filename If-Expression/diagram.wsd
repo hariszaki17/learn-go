@@ -1,0 +1,15 @@
+@startuml diagram
+start
+:name = "mamank";
+floating note right: ini adalah deklarasi sekaligus assignment variable
+if (name === "diaz") then
+floating note left: ini check jika variable name adalah diaz
+    :print diaz;
+    detach
+else if (name === "joni") then
+    :print joni;
+    detach
+else
+    :print tidak ada;
+    detach
+@enduml
